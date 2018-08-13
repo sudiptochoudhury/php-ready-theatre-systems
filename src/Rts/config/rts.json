@@ -1,0 +1,504 @@
+{
+    "operations": {
+        "_command": {
+            "httpMethod": "POST",
+            "uri": "",
+            "responseModel": "getResponse",
+            "parameters": {
+                "Version": {
+                    "location": "xml",
+                    "default": "1",
+                    "required": true
+                },
+                "Command": {
+                    "location": "xml",
+                    "static": true,
+                    "required": true
+                }
+            }
+        },
+        "getShowTimes": {
+            "description": "Get all Performance Schedule",
+            "parameters": {
+                "Command": {
+                    "default": "ShowTimeXml",
+                    "location": "xml",
+                    "static": true
+                },
+                "ShowAvalTickets": {
+                    "location": "xml",
+                    "default": "0",
+                    "arg": false
+                },
+                "ShowSales": {
+                    "location": "xml",
+                    "default": "0",
+                    "arg": false
+                },
+                "ShowSaleLinks": {
+                    "location": "xml",
+                    "default": "0",
+                    "arg": false
+                }
+            },
+            "extends": "_command"
+
+        },
+        "_getGiftCardInformation": {
+            "description": "Get Gift Card / Loyalty Card Information (deprecated)",
+            "parameters": {
+                "Command": {
+                    "default": "GiftInformation",
+                    "location": "xml",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "location": "xml",
+                    "required": true,
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "GiftCards": {
+                                    "type": "object",
+                                    "properties": {
+                                        "GiftCard": {}
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "extends": "_command"
+
+        },
+        "getGiftCardInformation": {
+            "description": "Get Gift Card / Loyalty Card Information",
+            "parameters": {
+                "Command": {
+                    "default": "GiftInformation",
+                    "location": "xml",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "location": "xml",
+                    "required": true,
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "GiftCards": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string",
+                                        "name": "GiftCard",
+                                        "arg": "[number1, number2, ...]"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "extends": "_command"
+
+        },
+        "buyGiftCard": {
+            "description": "New Gift Card Purchase",
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "Buy",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "location": "xml",
+                    "required": true,
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "PurchaseGifts": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "name": "PurchaseGift",
+                                        "properties": {
+                                            "Amount": {}
+                                        }
+                                    }
+                                },
+                                "Payments": {
+                                    "$ref": "payments"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "extends": "_command"
+
+        },
+        "refillGiftCard": {
+            "description": "Add Money to Existing Gift Card",
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "Buy",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "location": "xml",
+                    "required": true,
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "PurchaseGifts": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "name": "PurchaseGift",
+                                        "properties": {
+                                            "GiftCard": {},
+                                            "Amount": {}
+                                        }
+                                    }
+                                },
+                                "Payments": {
+                                    "$ref": "payments"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "extends": "_command"
+
+        },
+        "registerLoyaltyCard": {
+            "description": "Registering a Loyalty Card",
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "GIFTINFORMATION",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "location": "xml",
+                    "required": true,
+                    "properties": {
+                        "RegisterCards": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "name": "RegisterCard",
+                                "properties": {
+                                    "CardNumber": {},
+                                    "FirstName": {},
+                                    "LastName": {},
+                                    "Address1": {},
+                                    "Address2": {},
+                                    "City": {},
+                                    "State": {},
+                                    "Postal": {},
+                                    "RegisteredID": {},
+                                    "Email": {},
+                                    "DOB": {},
+                                    "DoNotEmail": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "extends": "_command"
+
+        },
+        "chcekIfSoldOut": {
+            "extends": "_command",
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "CheckSoldOut",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "location": "xml",
+                        "required": true
+                    },
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "PerformanceID": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "hasRedeemed": {
+            "extends": "_command",
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "CheckRedeem",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "location": "xml",
+                        "required": true
+                    },
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "PickupNumber": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "verifyTransaction": {
+            "extends": "_command",
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "VERIFYTRANSACTION",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "location": "xml",
+                        "required": true
+                    },
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "ThirdPartyID": {},
+                                "TransactionDateTimeUTC": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "refund": {
+            "extends": "_command",
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "Refund",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "location": "xml",
+                        "required": true
+                    },
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "Fees": {
+                                    "$ref": "fees"
+                                },
+                                "PickupNumber": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "reverse": {
+            "extends": "_command",
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "ReverseTransaction",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "location": "xml",
+                        "required": true
+                    },
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "Fees": {
+                                    "$ref": "fees"
+                                },
+                                "ThirdPartyID": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "payUsingHostedCheckout": {
+            "extends": "_command",
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "CreatePayment",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "location": "xml",
+                        "required": true
+                    },
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "ChargeAmount": {},
+                                "ProcessCompleteUrl": {},
+                                "ReturnUrl": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "buyTicket": {
+            "extends": "_command",
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "CreatePayment",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "location": "xml",
+                        "required": true
+                    },
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "PurchaseTitles": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "name": "PurchaseTitle",
+                                        "properties": {
+                                            "PerformanceID": {},
+                                            "Title": {},
+                                            "Auditorium": {},
+                                            "MTPerformanceID": {},
+                                            "MtFilmCode": {},
+                                            "ShowTime": {},
+                                            "Tickets": {
+                                                "$ref": "tickets"
+                                            }
+                                        }
+                                    }
+                                },
+                                "Fees": {
+                                    "$ref": "fees"
+                                },
+                                "Payments": {
+                                    "$ref": "payments"
+                                },
+                                "Loyalty": {
+                                    "type": "object",
+                                    "properties": {
+                                        "Cards": {
+                                            "type": "object",
+                                            "properties": {
+                                                "Type": {},
+                                                "CardNumber": {}
+                                            }
+                                        }
+                                    }
+                                },
+                                "ThirdPartyID": {},
+                                "CustomerInfo": {
+                                    "type": "object",
+                                    "properties": {
+                                        "Email": {}
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "getSeatLayout": {
+            "extends": "_command"
+        }
+    },
+    "models": {
+        "getResponse": {
+            "type": "object",
+            "additionalProperties": {
+                "location": "xml"
+            }
+        },
+        "fees": {
+            "type": "object",
+            "properties": {
+                "TicketFee": {
+                },
+                "TransactionFee": {
+                },
+                "Adjust": {
+                }
+            }
+        },
+        "tickets": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "name": "Ticket",
+                "properties": {
+                    "Amount": {},
+                    "TypeCode": {}
+                }
+            }
+        },
+        "payments": {
+            "type": "array",
+            "items": {
+                "name": "Payment",
+                "type": "object",
+                "properties": {
+                    "Type": {},
+                    "TransactionId": {},
+                    "ProcessCompletePostData": {},
+                    "GiftNumber": {},
+                    "Number": {},
+                    "Expiration": {},
+                    "AvsStreet": {},
+                    "AvsPostal": {},
+                    "CID": {},
+                    "NameOnCard": {},
+                    "ChargeAmount": {}
+                }
+            }
+        }
+    }
+}

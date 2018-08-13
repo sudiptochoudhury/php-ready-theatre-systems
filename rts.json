@@ -1,0 +1,47 @@
+{
+    "theatre": 5,
+    "username": "test",
+    "password": "test",
+    "sellusername": "test",
+    "sellpassword": "test",
+    "logs": {
+        "file": "logs/api.log",
+        "name": "API"
+    },
+
+    "defaults": {
+        "GiftCards": "1234510813486422",
+        "GiftCard": "1234510813486422",
+        "Amount": 5,
+        "ChargeAmount": 5,
+        "cc": {
+            "Number": "5499990123456781",
+            "Expiration": "1222",
+            "AvsStreet": "4 Main St",
+            "AvsPostal": "30329",
+            "CVV": "123",
+            "NameOnCard": "John Doe"
+        },
+        "cc-ne2e": {
+            "Number": "4003000123456781",
+            "Expiration": "0525",
+            "AvsStreet": "4 Corporate Sq",
+            "AvsPostal": "30329",
+            "CVV": "321",
+            "NameOnCard": "John Doe"
+        },
+        "customer": {
+            "FirstName": "Jon",
+            "LastName": "Doe",
+            "Address1": "Address Line 1",
+            "Address2": "Address Line 2",
+            "City": "The City",
+            "State": "The State",
+            "Postal": "Postal Code",
+            "RegisteredID": "Reg ID",
+            "Email": "Support@rts-solutions.com",
+            "DOB": "19710323",
+            "DoNotEmail": "1"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "name": "sudiptochoudhury/php-ready-theatre-systems",
+    "description": "PHP Client Library to consume Ready Theatre Systems, LLC – Open Interface API",
+    "keywords":["RTS", "Ready Theatre Systems", "php", "client", "rest", "api", "xml"],
+    "type": "library",
+    "homepage": "https://github.com/sudiptochoudhury/php-ready-theatre-systems",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sudipto Choudhury",
+            "homepage": "https://sudipto.net",
+            "email": "mail@sudipto.net",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sudiptochoudhury/php-cli"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "sudiptochoudhury/php-api-client-forge": "dev-master"
+    },
+    "require-dev": {
+        "sudiptochoudhury/php-cli": "dev-master",
+        "phpunit/phpunit": "^7.2.0",
+        "mockery/mockery": "^1.1.0",
+        "psr/log": "^1.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "SudiptoChoudhury\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+    },
+    "minimum-stability": "dev"
+}
