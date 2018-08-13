@@ -1,0 +1,1969 @@
+<Data>
+    <Record>
+        <ItemName>$1.00</ItemName>
+        <DisplayName>$1.00</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>&amp;IZATT-CANDY</ItemName>
+        <DisplayName>&amp;IZATT-CANDY</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.25</Price>
+    </Record>
+    <Record>
+        <ItemName>0.05 ADD</ItemName>
+        <DisplayName>0.05 ADD</DisplayName>
+        <Price>0.05</Price>
+    </Record>
+    <Record>
+        <ItemName>0.05 DROP</ItemName>
+        <DisplayName>0.05 DROP</DisplayName>
+        <Price>-0.05</Price>
+    </Record>
+    <Record>
+        <ItemName>0.10 DROP</ItemName>
+        <DisplayName>0.10 DROPP</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>-0.10</Price>
+    </Record>
+    <Record>
+        <ItemName>0.10 DROPP</ItemName>
+        <DisplayName>0.10 DROPPER</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>-0.10</Price>
+    </Record>
+    <Record>
+        <ItemName>0.10 DROPPERS</ItemName>
+        <DisplayName>0.10 DROPPERS</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>-0.10</Price>
+    </Record>
+    <Record>
+        <ItemName>0.10 DROPPERSS</ItemName>
+        <DisplayName>0.10 DROPPERS</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>-0.10</Price>
+    </Record>
+    <Record>
+        <ItemName>0.10 DROPPERSSS</ItemName>
+        <DisplayName>0.10 DROPPERSSS</DisplayName>
+        <Price>-0.10</Price>
+    </Record>
+    <Record>
+        <ItemName>0.25 ADD</ItemName>
+        <DisplayName>0.25 ADD</DisplayName>
+        <Price>0.25</Price>
+    </Record>
+    <Record>
+        <ItemName>0.25 DROP</ItemName>
+        <DisplayName>0.25 DROP</DisplayName>
+        <Price>-0.25</Price>
+    </Record>
+    <Record>
+        <ItemName>1</ItemName>
+        <DisplayName>1</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>1.00 ADD</ItemName>
+        <DisplayName>1.00 ADD</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>1.00 DROP</ItemName>
+        <DisplayName>1.00 DROP</DisplayName>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>10 FRAMES BOWLING</ItemName>
+        <DisplayName>10 FRAMES BOWLING</DisplayName>
+        <Price>12.00</Price>
+    </Record>
+    <Record>
+        <ItemName>10.00 ADD</ItemName>
+        <DisplayName>10.00 ADD</DisplayName>
+        <Price>10.00</Price>
+    </Record>
+    <Record>
+        <ItemName>10.00 DROP</ItemName>
+        <DisplayName>10.00 DROP</DisplayName>
+        <Price>-10.00</Price>
+    </Record>
+    <Record>
+        <ItemName>100 GRAND x2</ItemName>
+        <DisplayName>100 GRANDO</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>1000 GRAND</ItemName>
+        <DisplayName>100 GRANDS</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>11</ItemName>
+        <DisplayName>11</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>111</ItemName>
+        <DisplayName>111</DisplayName>
+        <Price>0.05</Price>
+    </Record>
+    <Record>
+        <ItemName>12</ItemName>
+        <DisplayName>12</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>123456789012345678901234567890</ItemName>
+        <DisplayName>123456789012345678901234567890</DisplayName>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>13</ItemName>
+        <DisplayName>13</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>14</ItemName>
+        <DisplayName>14</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>16</ItemName>
+        <DisplayName>16</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>17</ItemName>
+        <DisplayName>17</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>18</ItemName>
+        <DisplayName>18</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>19</ItemName>
+        <DisplayName>19</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>1TESTING10</ItemName>
+        <DisplayName>1TESTING10</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>2</ItemName>
+        <DisplayName>2</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>20</ItemName>
+        <DisplayName>20</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>20 DROP</ItemName>
+        <DisplayName>20 DROP</DisplayName>
+        <Price>-20.00</Price>
+    </Record>
+    <Record>
+        <ItemName>20% DISC</ItemName>
+        <DisplayName>20% DISC</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>-20.00</Price>
+    </Record>
+    <Record>
+        <ItemName>20.00 ADD</ItemName>
+        <DisplayName>20.00 ADD</DisplayName>
+        <Price>20.00</Price>
+    </Record>
+    <Record>
+        <ItemName>21</ItemName>
+        <DisplayName>21</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>22</ItemName>
+        <DisplayName>22</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>222</ItemName>
+        <DisplayName>222</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>23</ItemName>
+        <DisplayName>23</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>24</ItemName>
+        <DisplayName>24</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>3</ItemName>
+        <DisplayName>3</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>3D GLASSES</ItemName>
+        <DisplayName>3D GLASSES</DisplayName>
+        <Price>1.84</Price>
+    </Record>
+    <Record>
+        <ItemName>3D GLASSES TAX</ItemName>
+        <DisplayName>3D GLASSES TAX</DisplayName>
+        <Price>0.16</Price>
+    </Record>
+    <Record>
+        <ItemName>3D SERVICE FEE</ItemName>
+        <DisplayName>3D SERVICE FEE</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>4</ItemName>
+        <DisplayName>4</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>4.00</ItemName>
+        <DisplayName>4.00</DisplayName>
+        <Price>6.00</Price>
+    </Record>
+    <Record>
+        <ItemName>4.00 PASS RED</ItemName>
+        <DisplayName>4.00 PASS RED</DisplayName>
+        <Price>6.00</Price>
+    </Record>
+    <Record>
+        <ItemName>5</ItemName>
+        <DisplayName>5</DisplayName>
+        <Price>0.05</Price>
+    </Record>
+    <Record>
+        <ItemName>5.00 ADD</ItemName>
+        <DisplayName>5.00 ADD</DisplayName>
+        <Price>5.00</Price>
+    </Record>
+    <Record>
+        <ItemName>5.00 DROP</ItemName>
+        <DisplayName>5.00 DROP</DisplayName>
+        <Price>-5.00</Price>
+    </Record>
+    <Record>
+        <ItemName>50 CENT DISCOUT</ItemName>
+        <DisplayName>50 CENT DISCOUT</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.00</Price>
+    </Record>
+    <Record>
+        <ItemName>6</ItemName>
+        <DisplayName>6</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>6.00 PASS</ItemName>
+        <DisplayName>6.00 PASS</DisplayName>
+        <Price>6.00</Price>
+    </Record>
+    <Record>
+        <ItemName>7</ItemName>
+        <DisplayName>7</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>8</ItemName>
+        <DisplayName>8</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>9</ItemName>
+        <DisplayName>9</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>ADJUSTMENT</ItemName>
+        <DisplayName>ADJUSTMENT</DisplayName>
+        <Price>0.01</Price>
+    </Record>
+    <Record>
+        <ItemName>Apples</ItemName>
+        <DisplayName>Apples</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>Applesauce and Coconuts</ItemName>
+        <DisplayName>Applesauce and Coconuts</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.60</Price>
+    </Record>
+    <Record>
+        <ItemName>Arcade</ItemName>
+        <DisplayName>Arcade</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>ATOM ADJUST</ItemName>
+        <DisplayName>ATOM ADJUST</DisplayName>
+        <Price>-0.01</Price>
+    </Record>
+    <Record>
+        <ItemName>BEER</ItemName>
+        <DisplayName>BEER</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>4.50</Price>
+    </Record>
+    <Record>
+        <ItemName>BEER SALES</ItemName>
+        <DisplayName>BEER SALES</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Blank Fee</ItemName>
+        <DisplayName>Blank Fee</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>BONUS CARD</ItemName>
+        <DisplayName>BONUS CARD</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Bottle Wine</ItemName>
+        <DisplayName>Bottle Wine</DisplayName>
+        <Price>20.00</Price>
+    </Record>
+    <Record>
+        <ItemName>BOTTLED WATER</ItemName>
+        <DisplayName>BOTTL WATE</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Bowl Game</ItemName>
+        <DisplayName>Bowl Game</DisplayName>
+        <Price>12.00</Price>
+    </Record>
+    <Record>
+        <ItemName>budlight</ItemName>
+        <DisplayName>BUDLIGHT</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>BUNCHACRUNCH</ItemName>
+        <DisplayName>BUNCHACRUNCH</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>BUTTER FINGER</ItemName>
+        <DisplayName>BUTTER FINGER</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.75</Price>
+    </Record>
+    <Record>
+        <ItemName>Butters Finger</ItemName>
+        <DisplayName>Butters Finger</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Cake</ItemName>
+        <DisplayName>Cake</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.25</Price>
+    </Record>
+    <Record>
+        <ItemName>CANDY CHOICE</ItemName>
+        <DisplayName>CANDY CHOICE</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>CANDY CHOICE2</ItemName>
+        <DisplayName>CANDY CHOICE2</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Candy Combo Promo</ItemName>
+        <DisplayName>Candy Combo Promo</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Candy Promo</ItemName>
+        <DisplayName>Candy Promo</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.75</Price>
+    </Record>
+    <Record>
+        <ItemName>Cap Item</ItemName>
+        <DisplayName>Cap Item</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>CAPPACINO</ItemName>
+        <DisplayName>CAPPACINO</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>CAR COUNT</ItemName>
+        <DisplayName>CAR COUNT</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>CARAMEL CORN</ItemName>
+        <DisplayName>CARAMEL CORN</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>5.00</Price>
+    </Record>
+    <Record>
+        <ItemName>CC EXTERN</ItemName>
+        <DisplayName>CC EXTERN</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>CC RED AMEX MAN</ItemName>
+        <DisplayName>CC RED AMEX MAN</DisplayName>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>CC RED DIS MAN</ItemName>
+        <DisplayName>CC RED DIS MAN</DisplayName>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>CC RED MC MAN</ItemName>
+        <DisplayName>CC RED MC MAN</DisplayName>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>CC RED OTHER MA</ItemName>
+        <DisplayName>CC RED OTHER MA</DisplayName>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>CC RED VISA MAN</ItemName>
+        <DisplayName>CC RED VISA MAN</DisplayName>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>CC REDEEMED</ItemName>
+        <DisplayName>CC REDEEMED</DisplayName>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>CC TIPS</ItemName>
+        <DisplayName>CC TIPS</DisplayName>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>CHEESEBURGER</ItemName>
+        <DisplayName>CHEESEBURGER</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.60</Price>
+    </Record>
+    <Record>
+        <ItemName>CHICKEN FINGERS</ItemName>
+        <DisplayName>CHICKEN FINGERS</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.50</Price>
+    </Record>
+    <Record>
+        <ItemName>CHICKEN FRIED R</ItemName>
+        <DisplayName>CHICKEN FRIED R</DisplayName>
+        <Price>8.50</Price>
+    </Record>
+    <Record>
+        <ItemName>CHIPS&amp;SALSA</ItemName>
+        <DisplayName>CHIPS&amp;SALSA</DisplayName>
+        <Price>8.00</Price>
+    </Record>
+    <Record>
+        <ItemName>CITY 1</ItemName>
+        <DisplayName>CITY 1</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Clone test 2</ItemName>
+        <DisplayName>Clone test 2</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>clone test 3</ItemName>
+        <DisplayName>clone test 3</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>clone test 4</ItemName>
+        <DisplayName>clone test 4</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Clone test item</ItemName>
+        <DisplayName>Clone test item</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>clone1</ItemName>
+        <DisplayName>clone1</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.25</Price>
+    </Record>
+    <Record>
+        <ItemName>Clone2</ItemName>
+        <DisplayName>Clone2</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.25</Price>
+    </Record>
+    <Record>
+        <ItemName>ClonedItem1</ItemName>
+        <DisplayName>ClonedItem1</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>close test 2</ItemName>
+        <DisplayName>close test 2</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>CLUB REDEEMED</ItemName>
+        <DisplayName>CLUB REDEEMED</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>COMBO 54</ItemName>
+        <DisplayName>COMBO 54</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>COMBO 6</ItemName>
+        <DisplayName>COMBO 6</DisplayName>
+        <Price>-3.25</Price>
+    </Record>
+    <Record>
+        <ItemName>COMBO PREMIER</ItemName>
+        <DisplayName>COMBO PREMIER</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>6.00</Price>
+    </Record>
+    <Record>
+        <ItemName>COMBO1</ItemName>
+        <DisplayName>COMBO1</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>COMBO10</ItemName>
+        <DisplayName>COMBO10</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>COMBO2</ItemName>
+        <DisplayName>COMBO2</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>COMBO3</ItemName>
+        <DisplayName>COMBO3</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>COMBO4</ItemName>
+        <DisplayName>COMBO4</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>COMBO5</ItemName>
+        <DisplayName>COMBO5</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>COMP</ItemName>
+        <DisplayName>COMP</DisplayName>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>CONCESSION</ItemName>
+        <DisplayName>CONCESSION</DisplayName>
+        <Price>6.00</Price>
+    </Record>
+    <Record>
+        <ItemName>COOKIE DOUGH BI</ItemName>
+        <DisplayName>COOKIE DOUGH BI</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.50</Price>
+    </Record>
+    <Record>
+        <ItemName>COOKIE DOUGH CO</ItemName>
+        <DisplayName>COOKIE DOUGH CO</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Corp Redemption</ItemName>
+        <DisplayName>Corp Redemption</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Corp Redemption Offset</ItemName>
+        <DisplayName>Corp Redemption Offset</DisplayName>
+        <Price>-7.50</Price>
+    </Record>
+    <Record>
+        <ItemName>COUNTY 1</ItemName>
+        <DisplayName>COUNTY 1</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>CPN MD DRINK</ItemName>
+        <DisplayName>CPN MD DRINK</DisplayName>
+        <Price>0.05</Price>
+    </Record>
+    <Record>
+        <ItemName>DEBIT REDEEMED</ItemName>
+        <DisplayName>DEBIT REDEEMED</DisplayName>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>DEBIT SOLD</ItemName>
+        <DisplayName>DEBIT SOLD</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>DELUXE WINE</ItemName>
+        <DisplayName>DELUXE WINE</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>24.00</Price>
+    </Record>
+    <Record>
+        <ItemName>DISCOUNT 20</ItemName>
+        <DisplayName>DISCOUNT 20</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>-20.00</Price>
+    </Record>
+    <Record>
+        <ItemName>DONATIONS</ItemName>
+        <DisplayName>DONATIONS</DisplayName>
+        <Price>0.01</Price>
+    </Record>
+    <Record>
+        <ItemName>DOTS-2</ItemName>
+        <DisplayName>DOTS-2</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>DOUBLE</ItemName>
+        <DisplayName>DOUBLE</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>DOUBLE CHEESEBU</ItemName>
+        <DisplayName>DOUBLE CHEESEBU</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>7.50</Price>
+    </Record>
+    <Record>
+        <ItemName>Double Point Offset</ItemName>
+        <DisplayName>Double Point Offset</DisplayName>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Double PointMonday</ItemName>
+        <DisplayName>Double PointMonday</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>DOUBLE WINE</ItemName>
+        <DisplayName>DOUBLE WINE</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>10.00</Price>
+    </Record>
+    <Record>
+        <ItemName>dup small corn</ItemName>
+        <DisplayName>dup small corn</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.50</Price>
+    </Record>
+    <Record>
+        <ItemName>EMP CARD</ItemName>
+        <DisplayName>EMP CARD</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>EXTRA CHEESE</ItemName>
+        <DisplayName>EXTRA CHEESE</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>F DRINK 24OZ</ItemName>
+        <DisplayName>F DRINK 24OZ</DisplayName>
+        <Price>0.10</Price>
+    </Record>
+    <Record>
+        <ItemName>F DRINK 32OZ</ItemName>
+        <DisplayName>F DRINK 32OZ</DisplayName>
+        <Price>0.15</Price>
+    </Record>
+    <Record>
+        <ItemName>Fandango Adjust</ItemName>
+        <DisplayName>FANDANGO ADJUST</DisplayName>
+        <Price>-0.01</Price>
+    </Record>
+    <Record>
+        <ItemName>FREE TICKET OFF</ItemName>
+        <DisplayName>FREE TICKET OFF</DisplayName>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>FY</ItemName>
+        <DisplayName>FY</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>G</ItemName>
+        <DisplayName>G</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>GATORADE</ItemName>
+        <DisplayName>GATORADE</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.00</Price>
+    </Record>
+    <Record>
+        <ItemName>GATORADE G2</ItemName>
+        <DisplayName>GATORADE G2</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.00</Price>
+    </Record>
+    <Record>
+        <ItemName>GC $10</ItemName>
+        <DisplayName>GC $10</DisplayName>
+        <Price>10.00</Price>
+    </Record>
+    <Record>
+        <ItemName>GC CORRECT</ItemName>
+        <DisplayName>GC CORRECT</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>GC REDEEM</ItemName>
+        <DisplayName>GC REDEEM</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>GC REDEEMED</ItemName>
+        <DisplayName>GC REDEEMED</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>GC SOLD</ItemName>
+        <DisplayName>GC SOLD</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>GIFT 20.00</ItemName>
+        <DisplayName>GIFT 20.00</DisplayName>
+        <Price>0.05</Price>
+    </Record>
+    <Record>
+        <ItemName>Glass Wine</ItemName>
+        <DisplayName>Glass Wine</DisplayName>
+        <Price>5.00</Price>
+    </Record>
+    <Record>
+        <ItemName>GLAZED BLUEBERRY</ItemName>
+        <DisplayName>GLAZED BLUEBERRY</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>GLAZED GREEN APPLE</ItemName>
+        <DisplayName>GLAZED GREEN APPLE</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>GOLD PASS</ItemName>
+        <DisplayName>GOLD PASS</DisplayName>
+        <Price>6.50</Price>
+    </Record>
+    <Record>
+        <ItemName>GOOBERS</ItemName>
+        <DisplayName>GOOBERS</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Gwqeq</ItemName>
+        <DisplayName>Gwqeq</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.00</Price>
+    </Record>
+    <Record>
+        <ItemName>H</ItemName>
+        <DisplayName>H</DisplayName>
+        <Price>0.05</Price>
+    </Record>
+    <Record>
+        <ItemName>HMMONEY REDEEM</ItemName>
+        <DisplayName>HMMONEY REDEEM</DisplayName>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>HMMONEY SOLD</ItemName>
+        <DisplayName>HMMONEY SOLD</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>HOR DOG</ItemName>
+        <DisplayName>HOR DOG</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.00</Price>
+    </Record>
+    <Record>
+        <ItemName>HOT DOG</ItemName>
+        <DisplayName>HOT DOG</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>HOT DOGS</ItemName>
+        <DisplayName>HOT DOGS</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>HOT TAMALES</ItemName>
+        <DisplayName>HOT TAMALES</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Ice Cream Candy</ItemName>
+        <DisplayName>Ice Cream Candy</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.25</Price>
+    </Record>
+    <Record>
+        <ItemName>ICE TEA</ItemName>
+        <DisplayName>ICE TEA</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.00</Price>
+    </Record>
+    <Record>
+        <ItemName>ICEE</ItemName>
+        <DisplayName>ICEE</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.50</Price>
+    </Record>
+    <Record>
+        <ItemName>imagesavetest</ItemName>
+        <DisplayName>imagesavetest</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.25</Price>
+    </Record>
+    <Record>
+        <ItemName>INTERNET FEE</ItemName>
+        <DisplayName>INTERNET FEE</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Internet Ticket Void Offset</ItemName>
+        <DisplayName>Internet Ticket Void Offset</DisplayName>
+        <Price>0.01</Price>
+    </Record>
+    <Record>
+        <ItemName>IZATT-CANDY2</ItemName>
+        <DisplayName>IZATT-CANDY2</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>4.00</Price>
+    </Record>
+    <Record>
+        <ItemName>IZATT-CANDY3</ItemName>
+        <DisplayName>IZATT-CANDY3</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>5.00</Price>
+    </Record>
+    <Record>
+        <ItemName>JACK&apos;S LINK</ItemName>
+        <DisplayName>JACK&apos;S LINK</DisplayName>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>JELLY BELLY</ItemName>
+        <DisplayName>JELLY BELLY</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>JJ</ItemName>
+        <DisplayName>JJ</DisplayName>
+        <Price>0.05</Price>
+    </Record>
+    <Record>
+        <ItemName>JR MINTS</ItemName>
+        <DisplayName>JR MINTS</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>K</ItemName>
+        <DisplayName>K</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>KIDS COMBO</ItemName>
+        <DisplayName>KIDS COMBO</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>KIDS COMBO2</ItemName>
+        <DisplayName>KIDS COMBO2</DisplayName>
+        <Price>5.50</Price>
+    </Record>
+    <Record>
+        <ItemName>KIDS TRAY</ItemName>
+        <DisplayName>KIDS TRAY</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>4.50</Price>
+    </Record>
+    <Record>
+        <ItemName>KIOSK FEE</ItemName>
+        <DisplayName>KIOSK FEE</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>KIT KAT</ItemName>
+        <DisplayName>KIT KAT</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>KWTEST1</ItemName>
+        <DisplayName>KWTEST1</DisplayName>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>KWTEST2</ItemName>
+        <DisplayName>KWTEST2</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>LARGE CORN</ItemName>
+        <DisplayName>LARGE CORN</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Large Upgrade</ItemName>
+        <DisplayName>Large Upgrade</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>LEMON WATER</ItemName>
+        <DisplayName>LEMON WATER</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>LG DRINK</ItemName>
+        <DisplayName>LG DRINK</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>LG GOOBERS</ItemName>
+        <DisplayName>LG GOOBERS</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>LINK</ItemName>
+        <DisplayName>LINK</DisplayName>
+        <Price>-5.00</Price>
+    </Record>
+    <Record>
+        <ItemName>LL</ItemName>
+        <DisplayName>LL</DisplayName>
+        <Price>0.05</Price>
+    </Record>
+    <Record>
+        <ItemName>LOLLIPOP</ItemName>
+        <DisplayName>LOLLIPOP</DisplayName>
+        <Price>0.25</Price>
+    </Record>
+    <Record>
+        <ItemName>M&amp;M CHOICE</ItemName>
+        <DisplayName>M&amp;M CHOICE</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.50</Price>
+    </Record>
+    <Record>
+        <ItemName>M&amp;M PEANUT</ItemName>
+        <DisplayName>M&amp;M PEANUT</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>MAG CARD FIX</ItemName>
+        <DisplayName>MAG CARD FIX</DisplayName>
+        <Price>16.50</Price>
+    </Record>
+    <Record>
+        <ItemName>MEDIUM CORN</ItemName>
+        <DisplayName>MEDIUM CORN</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.25</Price>
+    </Record>
+    <Record>
+        <ItemName>MEDIUM DRINK</ItemName>
+        <DisplayName>MEDIUM DRINK</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Medium Upgrade</ItemName>
+        <DisplayName>Medium Upgrade</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Membership Fee</ItemName>
+        <DisplayName>Membership Fee</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>MICROS REDEEM</ItemName>
+        <DisplayName>MICROS REDEEM</DisplayName>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>MICROS SALE</ItemName>
+        <DisplayName>MICROS SALE</DisplayName>
+        <Price>0.01</Price>
+    </Record>
+    <Record>
+        <ItemName>MICROS SOLD</ItemName>
+        <DisplayName>MICROS SOLD</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>MILK DUDS</ItemName>
+        <DisplayName>MILK DUDS</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>MilkyWay</ItemName>
+        <DisplayName>MilkyWay</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>MINUSOTHERP</ItemName>
+        <DisplayName>MINUSOTHERP</DisplayName>
+        <Price>-5.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Misc Payment</ItemName>
+        <DisplayName>Misc Payment</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Mod Sub 1</ItemName>
+        <DisplayName>Mod Sub 1</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Mod Sub 2</ItemName>
+        <DisplayName>Mod Sub 2</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Mod Sub 3</ItemName>
+        <DisplayName>Mod Sub 3</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Mod test 1</ItemName>
+        <DisplayName>Mod test 1</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>MOVIE COLL</ItemName>
+        <DisplayName>MOVIE COLL</DisplayName>
+        <Price>0.05</Price>
+    </Record>
+    <Record>
+        <ItemName>MOVIE TICKETS</ItemName>
+        <DisplayName>MOVIE TICKETS</DisplayName>
+        <Price>4.00</Price>
+    </Record>
+    <Record>
+        <ItemName>MT Adjust</ItemName>
+        <DisplayName>MT Adjust</DisplayName>
+        <Price>-0.01</Price>
+    </Record>
+    <Record>
+        <ItemName>NACHO CHEESE</ItemName>
+        <DisplayName>NACHO CHEESE</DisplayName>
+        <Price>1.50</Price>
+    </Record>
+    <Record>
+        <ItemName>NACHO COMBO</ItemName>
+        <DisplayName>NACHO COMBO</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>NACHOS</ItemName>
+        <DisplayName>NACHOS</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>4.00</Price>
+    </Record>
+    <Record>
+        <ItemName>NACHOS CHEESE</ItemName>
+        <DisplayName>NACHOS CHEESE</DisplayName>
+        <Price>5.75</Price>
+    </Record>
+    <Record>
+        <ItemName>NACHOS2</ItemName>
+        <DisplayName>NACHOS2</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>NAKOS</ItemName>
+        <DisplayName>NAKOS</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>NEW CLONE TEST</ItemName>
+        <DisplayName>NEW CLONE TEST</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.25</Price>
+    </Record>
+    <Record>
+        <ItemName>NEW ITEM</ItemName>
+        <DisplayName>NEW ITEM</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.25</Price>
+    </Record>
+    <Record>
+        <ItemName>newsand</ItemName>
+        <DisplayName>newsand</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>7.00</Price>
+    </Record>
+    <Record>
+        <ItemName>NO TAX</ItemName>
+        <DisplayName>NO TAX</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>ONLINE GIFT FEE</ItemName>
+        <DisplayName>ONLINE GIFT FEE</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>OTHER PASS LINK</ItemName>
+        <DisplayName>OTHER PASS LINK</DisplayName>
+        <Price>-5.00</Price>
+    </Record>
+    <Record>
+        <ItemName>PARKING COUPON</ItemName>
+        <DisplayName>PARKING COUPON</DisplayName>
+        <Price>-2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>PATRIOT COMBO</ItemName>
+        <DisplayName>PATRIOT COMBO</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>14.00</Price>
+    </Record>
+    <Record>
+        <ItemName>PAYPAL PAYMENT</ItemName>
+        <DisplayName>PAYPAL PAYMENT</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>PICKLE</ItemName>
+        <DisplayName>PICKLE</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>PICKUP TEST</ItemName>
+        <DisplayName>PICKUP TEST</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>PIZZA</ItemName>
+        <DisplayName>PIZZA</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.25</Price>
+    </Record>
+    <Record>
+        <ItemName>PIZZA 7&quot; PEPPER</ItemName>
+        <DisplayName>PIZZA 7&quot; PEPPER</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>POPABLES</ItemName>
+        <DisplayName>POPABLES</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>POPCORN LARGE</ItemName>
+        <DisplayName>POPCORN LARGE</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>6.00</Price>
+    </Record>
+    <Record>
+        <ItemName>POPCORN MED</ItemName>
+        <DisplayName>POPCORN MED</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>5.25</Price>
+    </Record>
+    <Record>
+        <ItemName>POPCORN SMALL</ItemName>
+        <DisplayName>Small Popcorn</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>4.50</Price>
+    </Record>
+    <Record>
+        <ItemName>POWER ZERO</ItemName>
+        <DisplayName>POWER ZERO</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.00</Price>
+    </Record>
+    <Record>
+        <ItemName>POWER ZERO2</ItemName>
+        <DisplayName>POWER ZERO2</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Prepaid</ItemName>
+        <DisplayName>Prepaid</DisplayName>
+        <Price>-5.75</Price>
+    </Record>
+    <Record>
+        <ItemName>PRETZELS</ItemName>
+        <DisplayName>PRETZELS</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>4.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Processing Fee</ItemName>
+        <DisplayName>Processing Fee</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Promotion Offset</ItemName>
+        <DisplayName>Promotion Offset</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>RAISINETS</ItemName>
+        <DisplayName>RAISINETS</DisplayName>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>RASPBERRY WATER</ItemName>
+        <DisplayName>RASPBERRY WATER</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>REESES</ItemName>
+        <DisplayName>REESES</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Reward Popcorn</ItemName>
+        <DisplayName>Reward Popcorn</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Reward Upgrade</ItemName>
+        <DisplayName>Reward Upgrade</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>RewardUpgrade</ItemName>
+        <DisplayName>RewardUpgrade</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>RR</ItemName>
+        <DisplayName>RR</DisplayName>
+        <Price>0.05</Price>
+    </Record>
+    <Record>
+        <ItemName>RUNTS</ItemName>
+        <DisplayName>RUNTS</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Sandwich</ItemName>
+        <DisplayName>Sandwich</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.25</Price>
+    </Record>
+    <Record>
+        <ItemName>SCRIPT CHECK</ItemName>
+        <DisplayName>SCRIPT CHECK</DisplayName>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SCRIPT CHECK OD</ItemName>
+        <DisplayName>SCRIPT CHECK OD</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SENIOR COMBO</ItemName>
+        <DisplayName>SENIOR COMBO</DisplayName>
+        <Price>5.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SINGLE</ItemName>
+        <DisplayName>SINGLE</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SKITTLES</ItemName>
+        <DisplayName>SKITTLES</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SM POPCORN</ItemName>
+        <DisplayName>SM POPCORN</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.50</Price>
+    </Record>
+    <Record>
+        <ItemName>small candy</ItemName>
+        <DisplayName>small candy</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>0.58</Price>
+    </Record>
+    <Record>
+        <ItemName>SMALL CORN</ItemName>
+        <DisplayName>SMALL CORN</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.50</Price>
+    </Record>
+    <Record>
+        <ItemName>SMALL DRINK</ItemName>
+        <DisplayName>SMALL DRINK</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SMALL POPCORN</ItemName>
+        <DisplayName>SMALL POPCORN</DisplayName>
+        <Price>4.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SNO CAPS</ItemName>
+        <DisplayName>SNO CAPS</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SODA LARGE</ItemName>
+        <DisplayName>SODA LARGE</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>4.75</Price>
+    </Record>
+    <Record>
+        <ItemName>SODA MED</ItemName>
+        <DisplayName>SODA MED</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SODA SMALL</ItemName>
+        <DisplayName>SODA SMALL</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.75</Price>
+    </Record>
+    <Record>
+        <ItemName>SOUR PATCH</ItemName>
+        <DisplayName>SOUR PATCH</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SPREE</ItemName>
+        <DisplayName>SPREE</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>STARBUCKS</ItemName>
+        <DisplayName>STARBUCKS</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.50</Price>
+    </Record>
+    <Record>
+        <ItemName>STARBURST</ItemName>
+        <DisplayName>STARBURST</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>State 1</ItemName>
+        <DisplayName>State 1</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>STAX CITY</ItemName>
+        <DisplayName>STAX CITY</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>STAX COUNTY</ItemName>
+        <DisplayName>STAX COUNTY</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>STAX GST</ItemName>
+        <DisplayName>STAX GST</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>STAX PST</ItemName>
+        <DisplayName>STAX PST</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>STAX STATE</ItemName>
+        <DisplayName>STAX STATE</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>STAX TPS</ItemName>
+        <DisplayName>STAX TPS</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>STAX TVQ</ItemName>
+        <DisplayName>STAX TVQ</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>STAX VILLE</ItemName>
+        <DisplayName>STAX VILLE</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>STRAW</ItemName>
+        <DisplayName>STRAW</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>STUDENT</ItemName>
+        <DisplayName>STUDENT</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>STUDENT TICKET</ItemName>
+        <DisplayName>STUDENT TICKET</DisplayName>
+        <Price>-5.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUBTEST11</ItemName>
+        <DisplayName>SUBTEST11</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>5.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUBTEST17</ItemName>
+        <DisplayName>SUBTEST17</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>5.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUBTEST19</ItemName>
+        <DisplayName>SUBTEST19</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>5.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUBTEST25</ItemName>
+        <DisplayName>SUBTEST25</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>5.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUBTOTAL17</ItemName>
+        <DisplayName>SUBTOTAL17</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER EXP-10</ItemName>
+        <DisplayName>SUPER EXP-10</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER EXP-11</ItemName>
+        <DisplayName>SUPER EXP-11</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER EXP-2</ItemName>
+        <DisplayName>SUPER EXP-2</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER EXP-3</ItemName>
+        <DisplayName>SUPER EXP-3</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER EXP-4</ItemName>
+        <DisplayName>SUPER EXP-4</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER EXP-5</ItemName>
+        <DisplayName>SUPER EXP-5</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER EXP-6</ItemName>
+        <DisplayName>SUPER EXP-6</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER EXP-7</ItemName>
+        <DisplayName>SUPER EXP-7</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER EXP-8</ItemName>
+        <DisplayName>SUPER EXP-8</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER EXP-9</ItemName>
+        <DisplayName>SUPER EXP-9</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER EXPIRED</ItemName>
+        <DisplayName>SUPER EXPIRED</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER RED-10</ItemName>
+        <DisplayName>SUPER RED-10</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER RED-11</ItemName>
+        <DisplayName>SUPER RED-11</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER RED-2</ItemName>
+        <DisplayName>SUPER RED-2</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER RED-3</ItemName>
+        <DisplayName>SUPER RED-3</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER RED-4</ItemName>
+        <DisplayName>SUPER RED-4</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER RED-5</ItemName>
+        <DisplayName>SUPER RED-5</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER RED-6</ItemName>
+        <DisplayName>SUPER RED-6</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER RED-7</ItemName>
+        <DisplayName>SUPER RED-7</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER RED-8</ItemName>
+        <DisplayName>SUPER RED-8</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER RED-9</ItemName>
+        <DisplayName>SUPER RED-9</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER REDEEMED</ItemName>
+        <DisplayName>SUPER REDEEMED</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER SOLD</ItemName>
+        <DisplayName>SUPER SOLD</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER SOLD-10</ItemName>
+        <DisplayName>SUPER SOLD-10</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER SOLD-11</ItemName>
+        <DisplayName>SUPER SOLD-11</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER SOLD-2</ItemName>
+        <DisplayName>SUPER SOLD-2</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER SOLD-3</ItemName>
+        <DisplayName>SUPER SOLD-3</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER SOLD-4</ItemName>
+        <DisplayName>SUPER SOLD-4</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER SOLD-5</ItemName>
+        <DisplayName>SUPER SOLD-5</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER SOLD-6</ItemName>
+        <DisplayName>SUPER SOLD-6</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER SOLD-7</ItemName>
+        <DisplayName>SUPER SOLD-7</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER SOLD-8</ItemName>
+        <DisplayName>SUPER SOLD-8</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>SUPER SOLD-9</ItemName>
+        <DisplayName>SUPER SOLD-9</DisplayName>
+        <Price>6.60</Price>
+    </Record>
+    <Record>
+        <ItemName>TAX</ItemName>
+        <DisplayName>TAX</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>TEST</ItemName>
+        <DisplayName>TEST</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>test clone</ItemName>
+        <DisplayName>test clone</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>test clone 1</ItemName>
+        <DisplayName>test clone 1</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.00</Price>
+    </Record>
+    <Record>
+        <ItemName>test clone 3</ItemName>
+        <DisplayName>test clone 3</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.10</Price>
+    </Record>
+    <Record>
+        <ItemName>test close 3</ItemName>
+        <DisplayName>test close 3</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>test close 5</ItemName>
+        <DisplayName>test close 5</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>test close 6</ItemName>
+        <DisplayName>test close 6</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>TEST COMBO</ItemName>
+        <DisplayName>TEST COMBO</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>-1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Test Combo 1</ItemName>
+        <DisplayName>Test Combo 1</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>-0.50</Price>
+    </Record>
+    <Record>
+        <ItemName>test discount</ItemName>
+        <DisplayName>test discount</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Test Fee</ItemName>
+        <DisplayName>Test Fee</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Test Fee 2</ItemName>
+        <DisplayName>Test Fee 2</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Test Fee 3</ItemName>
+        <DisplayName>Test Fee 3</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>TEST ITEM</ItemName>
+        <DisplayName>TEST ITEM</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Test Large Corn</ItemName>
+        <DisplayName>Test Large Corn</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>6.50</Price>
+    </Record>
+    <Record>
+        <ItemName>Test Large Drink</ItemName>
+        <DisplayName>Test Large Drink</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>4.00</Price>
+    </Record>
+    <Record>
+        <ItemName>TEST2</ItemName>
+        <DisplayName>TEST2</DisplayName>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>test2223</ItemName>
+        <DisplayName>test2223</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>test2231</ItemName>
+        <DisplayName>test2231</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>test7</ItemName>
+        <DisplayName>test7</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>TESTDELETE1</ItemName>
+        <DisplayName>TESTDELETE1</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>TESTITEMG1</ItemName>
+        <DisplayName>TESTITEMG1</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>10.00</Price>
+    </Record>
+    <Record>
+        <ItemName>TestName</ItemName>
+        <DisplayName>TestName</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>TESTST</ItemName>
+        <DisplayName>TESTST</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>THEATRE RENTAL</ItemName>
+        <DisplayName>THEATRE RENTAL</DisplayName>
+        <Price>75.00</Price>
+    </Record>
+    <Record>
+        <ItemName>TICKET DISC</ItemName>
+        <DisplayName>TICKET DISC</DisplayName>
+        <Price>1.00</Price>
+    </Record>
+    <Record>
+        <ItemName>TWIZZLERS</ItemName>
+        <DisplayName>TWIZZLERS</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Upgrade Large Corn</ItemName>
+        <DisplayName>Upgrade Large Corn</DisplayName>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>UPS 2ND DAY AIR</ItemName>
+        <DisplayName>UPS 2ND DAY AIR</DisplayName>
+        <Price>15.00</Price>
+    </Record>
+    <Record>
+        <ItemName>UPS GROUND</ItemName>
+        <DisplayName>UPS GROUND</DisplayName>
+        <Price>10.00</Price>
+    </Record>
+    <Record>
+        <ItemName>UPS NEXT DAY AIR</ItemName>
+        <DisplayName>UPS NEXT DAY AIR</DisplayName>
+        <Price>25.00</Price>
+    </Record>
+    <Record>
+        <ItemName>USPS</ItemName>
+        <DisplayName>USPS</DisplayName>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>USPS FIRST CLASS</ItemName>
+        <DisplayName>USPS FIRST CLASS</DisplayName>
+        <Price>3.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Vista 5</ItemName>
+        <DisplayName>Vista 5</DisplayName>
+        <Price>-0.01</Price>
+    </Record>
+    <Record>
+        <ItemName>Vista Adjust</ItemName>
+        <DisplayName>Vista Adjust</DisplayName>
+        <Price>-0.01</Price>
+    </Record>
+    <Record>
+        <ItemName>Vista Adjust 2</ItemName>
+        <DisplayName>Vista Adjust 2</DisplayName>
+        <Price>-0.01</Price>
+    </Record>
+    <Record>
+        <ItemName>Vista Adjust 3</ItemName>
+        <DisplayName>Vista Adjust 3</DisplayName>
+        <Price>-0.01</Price>
+    </Record>
+    <Record>
+        <ItemName>WATER</ItemName>
+        <DisplayName>WATER</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>2.00</Price>
+    </Record>
+    <Record>
+        <ItemName>WATER CHOICES</ItemName>
+        <DisplayName>WATER CHOICES</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>0.00</Price>
+    </Record>
+    <Record>
+        <ItemName>WATER LARGE</ItemName>
+        <DisplayName>WATER LARGE</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>3.75</Price>
+    </Record>
+    <Record>
+        <ItemName>WATER SMALL</ItemName>
+        <DisplayName>WATER SMALL</DisplayName>
+        <Price>3.00</Price>
+    </Record>
+    <Record>
+        <ItemName>Website Adjust</ItemName>
+        <DisplayName>Website Adjust</DisplayName>
+        <Price>0.01</Price>
+    </Record>
+    <Record>
+        <ItemName>WED DISC</ItemName>
+        <DisplayName>WED DISC</DisplayName>
+        <Price>5.50</Price>
+    </Record>
+    <Record>
+        <ItemName>WINE BOTTLE</ItemName>
+        <DisplayName>WINE BOTTLE</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>20.00</Price>
+    </Record>
+    <Record>
+        <ItemName>WINE GLASS</ItemName>
+        <DisplayName>WINE GLASS</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>6.00</Price>
+    </Record>
+    <Record>
+        <ItemName>XLG POPCORN</ItemName>
+        <DisplayName>XLG POPCORN</DisplayName>
+        <PerCap>1</PerCap>
+        <Price>5.00</Price>
+    </Record>
+    <Record>
+        <ItemName>XX</ItemName>
+        <DisplayName>XX</DisplayName>
+        <Price>-0.25</Price>
+    </Record>
+</Data>

@@ -353,6 +353,7 @@ abstract class AbstractCli extends PHPCLI
             $values = [$values];
         }
         $slug = trim(implode('-', $values), '-');
+        $slug = str_replace(['ID'], ['Id'], $slug);
         $slug = preg_replace(['/([A-Z])/', '/\s+/', '/-{2,}/'], [' $1', '-', '-'], $slug);
         $slug = trim(strtolower($slug), '-');
         return $slug;

@@ -42,7 +42,6 @@
                 }
             },
             "extends": "_command"
-
         },
         "_getGiftCardInformation": {
             "description": "Get Gift Card / Loyalty Card Information (deprecated)",
@@ -72,7 +71,6 @@
                 }
             },
             "extends": "_command"
-
         },
         "getGiftCardInformation": {
             "description": "Get Gift Card / Loyalty Card Information",
@@ -104,7 +102,6 @@
                 }
             },
             "extends": "_command"
-
         },
         "buyGiftCard": {
             "description": "New Gift Card Purchase",
@@ -141,7 +138,6 @@
                 }
             },
             "extends": "_command"
-
         },
         "refillGiftCard": {
             "description": "Add Money to Existing Gift Card",
@@ -179,7 +175,6 @@
                 }
             },
             "extends": "_command"
-
         },
         "registerLoyaltyCard": {
             "description": "Registering a Loyalty Card",
@@ -219,7 +214,6 @@
                 }
             },
             "extends": "_command"
-
         },
         "chcekIfSoldOut": {
             "extends": "_command",
@@ -447,7 +441,237 @@
                 }
             }
         },
+        "getAllSeatLayouts": {
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "GetSeatLayouts",
+                    "static": true
+                }
+            },
+            "description": "Get all Seat Layouts",
+            "extends": "_command"
+        },
         "getSeatLayout": {
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "GETSEATPLANFORPERF",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "location": "xml",
+                        "required": true
+                    },
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "PerformanceID": {}
+                            }
+                        }
+                    }
+                }
+            },
+            "description": "Get Seat Layout for Performance",
+            "extends": "_command"
+        },
+        "checkPickedSeat": {
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "CHECKSEATPICKS",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "location": "xml",
+                        "required": true
+                    },
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "PerformanceID": {},
+                                "Seats": {
+                                    "$ref": "seats"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "description": "This call allows for you to verify the point-of-sale system will allow the sale of the seats picked. This is in order to stop customer from leaving too many single seats across the auditorium.",
+            "extends": "_command"
+        },
+        "getSeatChart": {
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "SeatChart",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "location": "xml",
+                        "required": true
+                    },
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "PerformanceID": {},
+                                "MtPerformanceID": {},
+                                "MtFilmCode": {},
+                                "ShowTime": {}
+                            }
+                        }
+                    }
+                }
+            },
+            "description": "Get Seat Layout for Performance",
+            "extends": "_command"
+        },
+        "holdSeats": {
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "HoldSeats",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "location": "xml",
+                        "required": true
+                    },
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "Command": {
+                                    "default": "Hold",
+                                    "static": true
+                                },
+                                "Performances": {
+                                    "type": "array",
+                                    "items": {
+                                        "name": "Performance",
+                                        "type": "object",
+                                        "properties": {
+                                            "PerformanceID": {},
+                                            "Seats": {
+                                                "$ref": "seats"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "description": "Hold Seats",
+            "extends": "_command"
+        },
+        "releaseSeats": {
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "HoldSeats",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "location": "xml",
+                        "required": true
+                    },
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "Command": {
+                                    "default": "Release",
+                                    "static": true
+                                },
+                                "TransactionID": {}
+                            }
+                        }
+                    }
+                }
+            },
+            "description": "Release already hold seats",
+            "extends": "_command"
+        },
+        "checkSalesTaxOnConcessionSales": {
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "Buy",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "location": "xml",
+                        "required": true
+                    },
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "SalesTaxCheck": {
+                                    "default": 1,
+                                    "static": true
+                                },
+                                "PurchaseItems": {
+                                    "$ref": "purchaseitems"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "description": "Check Sales Tax on Concession Sales",
+            "extends": "_command"
+        },
+        "buyConcessionItems": {
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "Buy",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "location": "xml",
+                        "required": true
+                    },
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "PurchaseItems": {
+                                    "$ref": "purchaseitems"
+                                },
+                                "Fees": {
+                                    "$ref": "fees"
+                                },
+                                "Payments": {
+                                    "$ref": "payments"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "description": "Purchase Concession Sales items",
             "extends": "_command"
         }
     },
@@ -476,7 +700,33 @@
                 "name": "Ticket",
                 "properties": {
                     "Amount": {},
-                    "TypeCode": {}
+                    "TypeCode": {},
+                    "HoldSeatTransactionID": {}
+                }
+            }
+        },
+        "seats": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "name": "Seat",
+                "properties": {
+                    "Row": {},
+                    "Col": {},
+                    "RowIndex": {},
+                    "ColIndex": {},
+                    "Section": {}
+                }
+            }
+        },
+        "purchaseitems": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "name": "PurchaseItem",
+                "properties": {
+                    "ItemName": {},
+                    "Amount": {}
                 }
             }
         },
