@@ -39,6 +39,7 @@ class Api extends ApiForge
             'responseHandler' => null,
             'requestHandler' => null,
         ],
+        'log' => false
 
     ];
 //
