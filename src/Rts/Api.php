@@ -7,6 +7,27 @@ use SudiptoChoudhury\Support\Forge\Api\Client as ApiForge;
 /**
  * Class Api
  *
+ * @method	array	getShowTimes(array $parameters)
+ * @method	array	getGiftCardInformation(array $parameters)
+ * @method	array	buyGiftCard(array $parameters)
+ * @method	array	refillGiftCard(array $parameters)
+ * @method	array	registerLoyaltyCard(array $parameters)
+ * @method	array	checkIfSoldOut(array $parameters)
+ * @method	array	hasRedeemed(array $parameters)
+ * @method	array	verifyTransaction(array $parameters)
+ * @method	array	refund(array $parameters)
+ * @method	array	reverse(array $parameters)
+ * @method	array	payUsingHostedCheckout(array $parameters)
+ * @method	array	buyTicket(array $parameters)
+ * @method	array	getAllSeatLayouts(array $parameters)
+ * @method	array	getSeatLayout(array $parameters)
+ * @method	array	checkPickedSeat(array $parameters)
+ * @method	array	getSeatChart(array $parameters)
+ * @method	array	holdSeats(array $parameters)
+ * @method	array	releaseSeats(array $parameters)
+ * @method	array	checkSalesTaxOnConcessionSales(array $parameters)
+ * @method	array	buyConcessionItems(array $parameters)
+ * @method	array	_getGiftCardInformation(array $parameters)
  *
  * @inheritdoc
  *
