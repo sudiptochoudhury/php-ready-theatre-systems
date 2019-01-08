@@ -7,11 +7,11 @@ namespace SudiptoChoudhury\Rts;
 class Constants
 {
     public const SEAT_CODE = [
-        "0" => "Normal Seat",
-        "1" => "Handicapped Seat",
-        "2" => "Aisle (the aisle, NOT an aisle seat)",
-        "3" => "House Seat",
-        "4" => "Companion Seat",
+        "0" => "Normal",
+        "1" => "Handicapped",
+        "2" => "Aisle", // the aisle, NOT an aisle-seat
+        "3" => "House",
+        "4" => "Companion",
         "5" => "Pillar",
         "6" => "Table",
         "7" => "Beanbag",
