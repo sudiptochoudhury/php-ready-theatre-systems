@@ -728,7 +728,17 @@
                 "properties": {
                     "Amount": {},
                     "TypeCode": {},
-                    "HoldSeatTransactionID": {}
+                    "HoldSeatTransactionID": {},
+                    "Section": {},
+                    "Seat": {
+                        "type": "object",
+                        "properties": {
+                            "Row": {
+                            },
+                            "Col": {
+                            }
+                        }
+                    }
                 }
             }
         },
