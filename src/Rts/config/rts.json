@@ -391,8 +391,7 @@
             "parameters": {
                 "Command": {
                     "location": "xml",
-                    "default": "CreatePayment",
-                    "static": true
+                    "default": "Buy"
                 },
                 "Data": {
                     "type": "object",
