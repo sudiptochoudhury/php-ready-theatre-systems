@@ -81,6 +81,8 @@ class Constants
         '2097152' => 'Fedelio',
         '4194304' => 'Captiview',
         '8388608' => 'Audio Description',
+        '16777216' => 'Hearing Impaired Track',
+        '33554432' => 'Sensory Show',
 
     ];
 
