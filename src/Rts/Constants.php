@@ -7,17 +7,17 @@ namespace SudiptoChoudhury\Rts;
 class Constants
 {
     public const SEAT_CODE = [
-        '0' => [ 'name' => 'Normal' ],
-        '1' => [ 'name' => 'Handicapped' ],
-        '2' => [ 'name' => 'Aisle' , 'isLayoutObject' => true ], // the aisle, NOT an aisle-seat
-        '3' => [ 'name' => 'House' ],
-        '4' => [ 'name' => 'Companion' ],
-        '5' => [ 'name' => 'Pillar', 'isLayoutObject' => true ],
-        '6' => [ 'name' => 'Table' , 'isLayoutObject' => true ],
-        '7' => [ 'name' => 'Beanbag' ],
-        '8' => [ 'name' => 'Loveseat' ],
-        '9' => [ 'name' => 'Rocker' ],
-        '10' => [ 'name' => 'Recliner' ],
+        '0' => ['name' => 'Normal'],
+        '1' => ['name' => 'Handicapped'],
+        '2' => ['name' => 'Aisle', 'isLayoutObject' => true], // the aisle, NOT an aisle-seat
+        '3' => ['name' => 'House'],
+        '4' => ['name' => 'Companion'],
+        '5' => ['name' => 'Pillar', 'isLayoutObject' => true],
+        '6' => ['name' => 'Table', 'isLayoutObject' => true],
+        '7' => ['name' => 'Beanbag'],
+        '8' => ['name' => 'Loveseat'],
+        '9' => ['name' => 'Rocker'],
+        '10' => ['name' => 'Recliner'],
     ];
     public const FILM_INFO1 = [
         '1' => 'RTN Display',
@@ -136,5 +136,64 @@ class Constants
 
     ];
 
+    /**
+     * @param array $movie
+     *
+     * @return array
+     */
+    private static function getInfo($movie = [])
+    {
+        $info = [];
+        $info[] = $movie['Info1'] ?? '';
+        $info[] = $movie['Info2'] ?? '';
+        $info[] = $movie['Info3'] ?? '';
+        $info[] = $movie['Info4'] ?? '';
+        return $info;
+    }
 
+    private static function getInfoDefs($isFlipped = false)
+    {
+        $infos = [];
+        $infos[] = Constants::FILM_INFO1;
+        $infos[] = Constants::FILM_INFO2;
+        $infos[] = Constants::FILM_INFO3;
+        $infos[] = Constants::FILM_INFO4;
+
+        if ($isFlipped) {
+            $infos = array_map(function ($item) {
+                return array_flip($item);
+            }, $infos);
+        }
+        return $infos;
+    }
+
+    public static function probe($movie = [])
+    {
+        $those = [];
+        $movieInfos = self::getInfo($movie);
+        $infos = self::getInfoDefs();
+
+        foreach ($infos as $key => $info) {
+            $movieInfo = $movieInfos[$key] ?? null;
+            if ($movieInfo) {
+                foreach ($info as $bit => $name) {
+                    if (!!($movieInfo & $bit)) {
+                        $those[] = $name;
+                    }
+                }
+            }
+        }
+        return $those;
+    }
+
+    public static function isIt($that = '', $movie = [])
+    {
+        $those = self::probe($movie);
+        return $that && in_array($that, $those);
+    }
+
+    public static function getMessage($code = '')
+    {
+        return self::ERROR_CODE[$code] ?? null;
+    }
 }
