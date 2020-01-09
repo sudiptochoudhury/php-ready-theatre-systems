@@ -19,7 +19,7 @@
         "@vue/cli-plugin-babel": "^3.3.0",
         "@vue/cli-plugin-eslint": "^3.3.0",
         "@vue/cli-service": "^3.3.0",
-        "lodash": "^4.17.11",
+        "lodash": "^4.17.13",
         "node-sass": "^4.11.0",
         "sass-loader": "^6.0.6",
         "style-loader": "^0.19.0",
