@@ -1,5 +1,8 @@
 ### Changelog
 
+### 1.0.1 - 9 Jan 2020
+- Remove seat layout app
+
 ### 1.0.0 - 9 Jan 2020
 - Add SQL API - `new SqlApi($config)->query($query, $options)` which returns as associative array   
     - $options (array) argument can have  `asString` to return result as string (XML as string).

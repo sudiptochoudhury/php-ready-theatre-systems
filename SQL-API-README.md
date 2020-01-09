@@ -1,40 +1,27 @@
-# php-ready-theatre-systems
+# php-ready-theatre-systems-sql-api
 
-PHP API Client for Ready Theatre Systems, LLC – Open Interface API
+PHP API Client for Ready Theatre Systems, LLC – SQL API
 
 
 ```php
 
-use SudiptoChoudhury\Rts\Api;
+use SudiptoChoudhury\Rts\SqlApi as Api;
 
 $rts = new Api([
     'theatre' => '<<theatre number>>'
-    'username' => '<<password>>',
-    'password' => '<<password>>',
+    'data_password' => '<<password>>'
 ]);
 
 
-$result = $rts->getShowTime(['ShowSales' => 1, 'ShowAvalTickets' => 1, 'ShowSaleLinks' => 1]); 
+$result = $rts->query('Select * From CustomerInfo.customer'); 
 
-$result = $rts->checkIfSoldOut([
-    'Data' => [
-        "Packet" => [
-            'PerformanceID' => '018129000023'
-        ]
-    ]
-]);
+$result = $rts->query('Select * From CustomerInfo.customer', ['asString' => true]);
 
-$result = $rts->getGiftCardInformation([
-    'Data' => [
-        "Packet" => [
-            'GiftCards' => [
-                'GiftCard' => '1234510813486422'
-            ]
-        ]
-    ]
+$result = $rts->query('Select * From CustomerInfo.customer', ['asXML' => true]);
 
-]);
- 
+$result = $rts->query('Select * From CustomerInfo.customer', ['asRawArray' => true]);
+
+
  
 ```
 
@@ -64,79 +51,78 @@ composer require sudiptochoudhury/php-ready-theatre-systems
 
 ## Setting up
 
-All you need to do is to pass theatre id, username and password to the constructor. Additionally, you can set a logger to log 
+All you need to do is to pass theatre id, data_password to the constructor. 
 ```php
 
 use SudiptoChoudhury\Rts\Api;
 
 new Api([
-    'theatre' => '<<theatre number>>'
-    'username' => '<<password>>',
-    'password' => '<<password>>',
+    'theatre' => '<<theatre number>>',
+    'data_password' => '<<password>>'
+]);
+```
+
+Additionally, you can set a logger via `log` property.
+
+- You can set `log` to `false` to disable logging.
+- You can also pass an array with `file` and `path` properties.
+
+
+```php
+
+use SudiptoChoudhury\Rts\Api;
+
+new Api([
+    'theatre' => '<<theatre number>>',
+    'data_password' => '<<password>>',
     'log' => ['file' => 'rts.log', 'path' => '/your/log/path']
 ]);
 ```
+- You can also pass a `Monolog\Logger` instance as `['logger' => $instance ]`;
 
-
-## How to use
-
-Next, call the desired method from the table given below. In most methods you may need to pass parameters. The parameters
-are to be passed as an associative array. 
-
-Examples:
 ```php
-$rts = new Api([
-    'theatre' => '<<theatre number>>'
-    'username' => '<<password>>',
-    'password' => '<<password>>',
+
+use SudiptoChoudhury\Rts\Api;
+
+new Api([
+    'theatre' => '<<theatre number>>',
+    'data_password' => '<<password>>',
+    'log' => ['logger' => $monologInstance]
 ]);
-
-
-$result = $rts->getShowTime(['ShowSales' => 1, 'ShowAvalTickets' => 1, 'ShowSaleLinks' => 1]); 
-
-$result = $rts->checkIfSoldOut([
-    'Data' => [
-        "Packet" => [
-            'PerformanceID' => '018129000023'
-        ]
-    ]
-]);
-
-$result = $rts->getGiftCardInformation([
-    'Data' => [
-        "Packet" => [
-            'GiftCards' => [
-                'GiftCard' => '1234510813486422'
-            ]
-        ]
-    ]
-
-]);
- 
 ```
+
+You can use `client` property to forward to `GuzzleHttp\Client` constructor.
+
+```php
+
+use SudiptoChoudhury\Rts\Api;
+
+new Api([
+    'theatre' => '<<theatre number>>',
+    'data_password' => '<<password>>',
+    'client' => ['timeout' => 5]
+]);
+```
+
+ If you wish to tap into request and response handler stacks use `settings` instead of using `client`'s `handlers` property.
+
+```php 
+'settings' => [
+    'responseHandler' => function (ResponseInterface $response) {
+        // do something
+        return $response;
+    },
+    'requestHandler' => function (RequestInterface $request) {
+        // some action
+        return $request;
+    },
+],
+```
+ 
 
 
 ### Available API Methods
 
-| Method & Endpoint | Parameters | Description |
+| Method & Command Name | Options | Description |
 |-------------------|------------|-------------|
-| `getShowTimes(array)`<br/> \[POST\] ShowTimeXml | `ShowAvalTickets` `ShowSales` `ShowSaleLinks` | Get all Performance Schedule | 
-| `getGiftCardInformation(array)`<br/> \[POST\] GiftInformation |  |  |
-| `buyGiftCard(array)`<br/> \[POST\] Buy |  |  |
-| `refillGiftCard(array)`<br/> \[POST\] Buy |  |  |
-| `registerLoyaltyCard(array)`<br/> \[POST\] GIFTINFORMATION |  |  |
-| `checkIfSoldOut(array)`<br/> \[POST\] CheckSoldOut |  |  |
-| `hasRedeemed(array)`<br/> \[POST\] CheckRedeem |  |  |
-| `verifyTransaction(array)`<br/> \[POST\] VERIFYTRANSACTION |  |  |
-| `refund(array)`<br/> \[POST\] Refund |  |  |
-| `reverse(array)`<br/> \[POST\] ReverseTransaction |  |  |
-| `payUsingHostedCheckout(array)`<br/> \[POST\] CreatePayment |  |  |
-| `buyTicket(array)`<br/> \[POST\] CreatePayment |  |  |
-| `getAllSeatLayouts(array)`<br/> \[POST\] GetSeatLayouts |  |  |
-| `getSeatLayout(array)`<br/> \[POST\] GETSEATPLANFORPERF |  |  |
-| `checkPickedSeat(array)`<br/> \[POST\] CHECKSEATPICKS |  |  |
-| `getSeatChart(array)`<br/> \[POST\] SeatChart |  |  |
-| `holdSeats(array)`<br/> \[POST\] HoldSeats |  |  |
-| `releaseSeats(array)`<br/> \[POST\] HoldSeats |  |  |
-| `checkSalesTaxOnConcessionSales(array)`<br/> \[POST\] Buy |  |  |
-| `buyConcessionItems(array)`<br/> \[POST\] Buy |  |  |
+| `query(query:string, options:Array)`<br/> \[POST\] DATATRANSFER | `asXML` `asString`, `asRawArray` | Run SQL query (readonly). Returns an associative array. options (array) argument can have  `asString` to return result as string (XML as string; `asXML` to return result as SimpleXML object;  `asRawArray` to return result as array as converted from SimpleXML object. | 

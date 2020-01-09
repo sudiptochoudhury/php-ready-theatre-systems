@@ -64,7 +64,23 @@ composer require sudiptochoudhury/php-ready-theatre-systems
 
 ## Setting up
 
-All you need to do is to pass theatre id, username and password to the constructor. Additionally, you can set a logger to log 
+All you need to do is to pass theatre id, username and password to the constructor. 
+```php
+
+use SudiptoChoudhury\Rts\Api;
+
+new Api([
+    'theatre' => '<<theatre number>>'
+    'username' => '<<password>>',
+    'password' => '<<password>>'
+]);
+```
+
+Additionally, you can set a logger via `log` property.
+
+- You can set log to `false` to disable logging.
+- You can also pass an array with `file` and `path` properties.
+
 ```php
 
 use SudiptoChoudhury\Rts\Api;
@@ -76,7 +92,49 @@ new Api([
     'log' => ['file' => 'rts.log', 'path' => '/your/log/path']
 ]);
 ```
+- You can also pass a `Monolog\Logger` instance.
 
+```php
+
+use SudiptoChoudhury\Rts\Api;
+
+new Api([
+    'theatre' => '<<theatre number>>'
+    'username' => '<<password>>',
+    'password' => '<<password>>',
+    'log' => ['logger' => $monologInstance]
+]);
+```
+
+You can use `client` property to forward to `GuzzleHttp\Client` constructor. 
+
+```php
+
+use SudiptoChoudhury\Rts\Api;
+
+new Api([
+    'theatre' => '<<theatre number>>'
+    'username' => '<<password>>',
+    'password' => '<<password>>',
+    'client' => ['timeout' => 5]
+]);
+```
+
+If you wish to tap into request and response handler stacks use `settings` instead of using `client`'s `handlers` property.
+
+```php 
+'settings' => [
+    'responseHandler' => function (ResponseInterface $response) {
+        // do something
+        return $response;
+    },
+    'requestHandler' => function (RequestInterface $request) {
+        // some action
+        return $request;
+    },
+],
+```
+ 
 
 ## How to use
 
@@ -118,7 +176,7 @@ $result = $rts->getGiftCardInformation([
 
 ### Available API Methods
 
-| Method & Endpoint | Parameters | Description |
+| Method & Command | Parameters | Description |
 |-------------------|------------|-------------|
 | `getShowTimes(array)`<br/> \[POST\] ShowTimeXml | `ShowAvalTickets` `ShowSales` `ShowSaleLinks` | Get all Performance Schedule | 
 | `getGiftCardInformation(array)`<br/> \[POST\] GiftInformation |  |  |
