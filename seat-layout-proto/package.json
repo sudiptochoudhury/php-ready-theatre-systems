@@ -9,7 +9,7 @@
         "dist": "serve -s dist"
     },
     "dependencies": {
-        "axios": "^0.18.0",
+        "axios": "^0.18.1",
         "bootstrap": "^4.2.1",
         "jquery": "^3.3.1",
         "popper.js": "^1.14.6",
