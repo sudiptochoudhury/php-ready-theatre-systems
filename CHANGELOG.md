@@ -1,5 +1,11 @@
 ### Changelog
 
+### 1.0.3 - 9 Jan 2020
+- Fix issue with RTS not supporting CDATA in query.
+
+### 1.0.2 - 9 Jan 2020
+- Update docs.
+
 ### 1.0.1 - 9 Jan 2020
 - Remove seat layout app
 

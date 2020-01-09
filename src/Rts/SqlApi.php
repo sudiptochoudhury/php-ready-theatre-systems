@@ -2,6 +2,9 @@
 
 namespace SudiptoChoudhury\Rts;
 
+use GuzzleHttp\Psr7;
+use Psr\Http\Message\RequestInterface;
+
 use SudiptoChoudhury\Support\Forge\Api\Client as ApiForge;
 
 /**
@@ -48,6 +51,20 @@ class SqlApi extends ApiForge
     {
         parent::__construct($config);
         $this->password = $config['data_password'] ?? $config['password'] ?? 'test';
+    }
+
+
+    protected function requestHandler(RequestInterface $request)
+    {
+        $body = $request->getBody();
+        $content = '' . $body->getContents();
+        if (stripos($content, '[CDATA[') !== false) {
+            $newContent = preg_replace('/(\<Query\>)\<\!\[CDATA\[/', "$1", $content);
+            $newContent = preg_replace('/\]\]\>(\<\/Query\>)/', "$1", $newContent);
+            $newBody = Psr7\stream_for($newContent);
+            $request = $request->withBody($newBody);
+        }
+        return $request;
     }
 
     /**
