@@ -1,15 +1,17 @@
 ### Available API Methods
 
-| Method & Endpoint | Parameters | Description |
+| Method & Command Name | Parameters | Description |
 |-------------------|------------|-------------|
 | `getShowTimes(array)`<br/> \[POST\] ShowTimeXml | `ShowAvalTickets` `ShowSales` `ShowSaleLinks` | Get all Performance Schedule | 
 | `getGiftCardInformation(array)`<br/> \[POST\] GiftInformation |  |  |
+| `getGiftCardInformationWithPin(array)`<br/> \[POST\] GiftInformationWithPIN |  |  |
 | `buyGiftCard(array)`<br/> \[POST\] Buy |  |  |
 | `refillGiftCard(array)`<br/> \[POST\] Buy |  |  |
 | `registerLoyaltyCard(array)`<br/> \[POST\] GIFTINFORMATION |  |  |
 | `checkIfSoldOut(array)`<br/> \[POST\] CheckSoldOut |  |  |
 | `hasRedeemed(array)`<br/> \[POST\] CheckRedeem |  |  |
 | `verifyTransaction(array)`<br/> \[POST\] VERIFYTRANSACTION |  |  |
+| `getTransactionDetails(array)`<br/> \[POST\] TRANSACTIONDETAILS |  |  |
 | `refund(array)`<br/> \[POST\] Refund |  |  |
 | `reverse(array)`<br/> \[POST\] ReverseTransaction |  |  |
 | `payUsingHostedCheckout(array)`<br/> \[POST\] CreatePayment |  |  |

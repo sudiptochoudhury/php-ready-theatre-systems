@@ -103,6 +103,40 @@
             },
             "extends": "_command"
         },
+        "getGiftCardInformationWithPin": {
+            "description": "Get Gift Card / Loyalty Card Information",
+            "parameters": {
+                "Command": {
+                    "default": "GiftInformationWithPIN",
+                    "location": "xml",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "location": "xml",
+                    "required": true,
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "GiftCards": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "name": "GiftCard",
+                                        "properties": {
+                                            "CardNumber": {},
+                                            "CardPIN": {}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "extends": "_command"
+        },
         "buyGiftCard": {
             "description": "New Gift Card Purchase",
             "parameters": {
@@ -291,6 +325,33 @@
                             "properties": {
                                 "ThirdPartyID": {},
                                 "TransactionDateTimeUTC": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "getTransactionDetails": {
+            "extends": "_command",
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "TRANSACTIONDETAILS",
+                    "static": true
+                },
+                "Data": {
+                    "type": "object",
+                    "location": "xml",
+                    "required": true,
+                    "additionalProperties": {
+                        "location": "xml",
+                        "required": true
+                    },
+                    "properties": {
+                        "Packet": {
+                            "type": "object",
+                            "properties": {
+                                "PickupNumber": {}
                             }
                         }
                     }

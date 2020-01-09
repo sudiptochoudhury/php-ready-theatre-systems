@@ -1,0 +1,66 @@
+{
+    "operations": {
+        "_command": {
+            "httpMethod": "POST",
+            "uri": "",
+            "responseModel": "getResponse",
+            "parameters": {
+                "Version": {
+                    "location": "xml",
+                    "default": "1",
+                    "required": true
+                },
+                "Command": {
+                    "location": "xml",
+                    "static": true,
+                    "required": true
+                }
+            }
+        },
+        "query": {
+            "extends": "_command",
+            "parameters": {
+                "Command": {
+                    "location": "xml",
+                    "default": "DATATRANSFER",
+                    "static": true
+                },
+                "XmlRS": {
+                    "location": "xml",
+                    "default": "1",
+                    "static": true
+                },
+                "DataTransferPassword": {
+                    "location": "xml",
+                    "default": "test",
+                    "required": true
+                },
+                "DatabaseREQ": {
+                    "type": "object",
+                    "location": "xml",
+                    "required": true,
+                    "additionalProperties": {
+                        "location": "xml",
+                        "required": false
+                    },
+                    "properties": {
+                        "Query": {
+                            "location": "xml",
+                            "type": "string",
+                            "required": true
+                        }
+                    }
+                }
+            },
+            "description": "RTS SQL API Query"
+        }
+    },
+    "models": {
+        "getResponse": {
+            "type": "object",
+            "additionalProperties": {
+                "location": "xml"
+            }
+        }
+    }
+}

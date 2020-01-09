@@ -124,6 +124,17 @@ class Constants
         '133' => 'Zero Priced Ticket in Request',
         '134' => 'Payments are specified during check sales tax request',
         '135' => 'No PickupNumber specified',
+        '136' => 'Refund, Reverse, or Redeem error',
+        '137' => 'Performance is no longer scheduled',
+        '138' => 'Non-secure payment on tokenized account',
+        '139' => 'Ticket not available for performance',
+        '140' => 'Reserved ticket purchase error',
+        '140' => 'Reserved ticket purchase error',
+        '141' => 'Transaction does not balance error',
+        '142' => 'Reserved ticket purchase error',
+        '143' => 'Malformed gift purchase packet',
+        '144' => 'Unable to validate GiftCardPIN',
+
         '500' => 'POS could not allocate cash register control (possibly server too busy)',
         '700' => 'Unknown error during sale',
         '701' => 'Not enough money on gift card',
@@ -133,6 +144,10 @@ class Constants
         '705' => 'Ticket serial number file is invalid',
         '706' => 'Concession item not setup – check ticket/concession link items',
         '707' => 'Reserved seat sale failed – check the seating chart',
+
+        '5000' => 'Exception Error',
+        '9000' => 'POS Not Licensed',
+        '9001' => 'Packet Parse Error',
 
     ];
 

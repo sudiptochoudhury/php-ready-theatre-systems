@@ -61,21 +61,5 @@ class Api extends ApiForge
             'requestHandler' => null,
         ],
         'log' => false
-
     ];
-//
-//    protected function requestHandler($request)
-//    {
-//        $content = (string)$request->getBody();
-//        var_dump($content);
-//        return $request;
-//    }
-//
-//    protected function responseHandler($response)
-//    {
-//        $content = (string)$response->getBody();
-//        var_dump($content);
-//        return $response;
-//    }
-
 }

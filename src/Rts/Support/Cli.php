@@ -11,7 +11,7 @@ class Cli extends AbstractCli
 {
 
     public static $rootPath = __DIR__;
-    protected $versionName = 'version 0.3.1';
+    protected $versionName = 'v1.0.0';
     protected $welcome = 'RTS API CLI tool';
     protected $apiProvider = 'RTS';
 
