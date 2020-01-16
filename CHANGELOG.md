@@ -1,5 +1,8 @@
 ### Changelog
 
+### 1.0.4 - 16 Jan 2020
+- Fix for non-standard data format received for single record or single field
+
 ### 1.0.3 - 9 Jan 2020
 - Fix issue with RTS not supporting CDATA in query.
 

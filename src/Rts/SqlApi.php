@@ -112,19 +112,31 @@ class SqlApi extends ApiForge
         if (!empty($data)) {
             $oldData = $data;
             $fieldDefs = $oldData['Fields']['Field'];
+            if (isset($fieldDefs['Name'])) {
+                $fieldDefs = [$fieldDefs];
+            }
             $fields = array_map(function ($item) {
                 return $item['Name'] ?? null;
             }, $fieldDefs);
 
             $recordDefs = $oldData['Recs']['Rec'];
+
+            if (isset($recordDefs['Value'])) {
+                $recordDefs = [$recordDefs];
+            }
+
             $data = [];
             foreach ($recordDefs as $recordDef) {
+                $valuesDef = $recordDef['Value'] ?? [];
+                if (!is_array($valuesDef)) {
+                    $valuesDef = [$valuesDef];
+                }
                 $values = array_map(function ($v) {
                     if (is_array($v) && empty($v)) {
                         $v = null;
                     }
                     return $v;
-                }, $recordDef['Value'] ?? []);
+                }, $valuesDef);
                 $data[] = array_combine($fields, $values);
             }
         }
