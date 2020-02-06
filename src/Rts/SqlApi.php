@@ -88,6 +88,7 @@ class SqlApi extends ApiForge
 
         $data = null;
         if ($decodedString) {
+            $decodedString = utf8_encode($decodedString);
             $data = simplexml_load_string($decodedString);
 
             if (!($options['asXML'] ?? false)) {
