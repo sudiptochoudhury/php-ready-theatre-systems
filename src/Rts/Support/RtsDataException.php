@@ -34,9 +34,8 @@ class RtsDataException extends Exception
         if (!empty($response['Code'])) {
             $description = $response['Description'] ?? '';
             $data = explode(':', $description);
-            $code = trim($data[1] ?? $response['Code']);
             $message = trim($data[2]) ?? 'Unknown RTS SQL error!';
-            throw new RtsDataException($message, $code, null, $response);
+            throw new RtsDataException($message, $response['Code'], null, $response);
         }
     }
 }
