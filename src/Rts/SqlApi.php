@@ -6,6 +6,7 @@ use GuzzleHttp\Psr7;
 use Psr\Http\Message\RequestInterface;
 
 use SudiptoChoudhury\Support\Forge\Api\Client as ApiForge;
+use SudiptoChoudhury\Rts\Support\RtsDataException;
 
 /**
  * Class SqlApi
@@ -68,10 +69,11 @@ class SqlApi extends ApiForge
     }
 
     /**
-     * @param $query   string
-     * @param $options array
+     * @param string $query
+     * @param array  $options
      *
-     * @return mixed
+     * @return array|bool|mixed|\SimpleXMLElement|string|null
+     * @throws \Exception
      */
     public function query($query = '', $options = [])
     {
@@ -79,6 +81,7 @@ class SqlApi extends ApiForge
         $payload = ['DatabaseREQ' => ['Query' => $query], 'DataTransferPassword' => $this->password];
         $response = $api->query($payload);
         $responseArray = $response->toArray();
+        $this->checkError($responseArray);
         $encodedString = $responseArray['Data'] ?? null;
         $decodedString = base64_decode($encodedString);
 
@@ -142,5 +145,15 @@ class SqlApi extends ApiForge
             }
         }
         return $data;
+    }
+
+    /***
+     * @param $response
+     *
+     * @throws \Exception
+     */
+    private function checkError($response)
+    {
+        RtsDataException::make($response);
     }
 }

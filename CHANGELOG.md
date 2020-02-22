@@ -1,8 +1,10 @@
 ### Changelog
 
+### 1.0.6 - 22 Feb 2020
+- Add Exception handling for SQL API 
+
 ### 1.0.5 - 6 Feb 2020
 - Convert XML string to utf-8 first before converting to XML 
-
 
 ### 1.0.4 - 16 Jan 2020
 - Fix for non-standard data format received for single record or single field
