@@ -1,5 +1,8 @@
 ### Changelog
 
+### 1.0.6.2 - 22 Feb 2020
+- Fix Exception handling for SQL API 
+
 ### 1.0.6.1 - 22 Feb 2020
 - Fix Exception handling for SQL API 
 
