@@ -1,5 +1,8 @@
 ### Changelog
 
+### 1.0.7 - 10 Mar 2020
+- Add purchase related properties in guzzle operation 
+
 ### 1.0.6.2 - 22 Feb 2020
 - Fix Exception handling for SQL API 
 

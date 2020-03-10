@@ -1,4 +1,7 @@
 {
+    "additionalParameters": true,
+    "additionalProperties": true,
+    "name": "RTS Purchase API",
     "operations": {
         "_command": {
             "httpMethod": "POST",

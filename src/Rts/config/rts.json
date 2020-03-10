@@ -1,4 +1,7 @@
 {
+    "additionalParameters": true,
+    "additionalProperties": true,
+    "name": "RTS Purchase API",
     "operations": {
         "_command": {
             "httpMethod": "POST",
@@ -165,6 +168,29 @@
                                 },
                                 "Payments": {
                                     "$ref": "payments"
+                                },
+                                "Fees": {
+                                    "$ref": "fees"
+                                },
+                                "Loyalty": {
+                                    "type": "object",
+                                    "properties": {
+                                        "Cards": {
+                                            "type": "object",
+                                            "properties": {
+                                                "Type": {},
+                                                "CardNumber": {}
+                                            }
+                                        }
+                                    }
+                                },
+                                "ThirdPartyID": {},
+                                "CustomerInfo": {
+                                    "type": "object",
+                                    "properties": {
+                                        "Email": {},
+                                        "EmailAddress": {}
+                                    }
                                 }
                             }
                         }
@@ -506,7 +532,8 @@
                                 "CustomerInfo": {
                                     "type": "object",
                                     "properties": {
-                                        "Email": {}
+                                        "Email": {},
+                                        "EmailAddress": {}
                                     }
                                 }
                             }
@@ -753,6 +780,26 @@
                                 },
                                 "Payments": {
                                     "$ref": "payments"
+                                },
+                                "Loyalty": {
+                                    "type": "object",
+                                    "properties": {
+                                        "Cards": {
+                                            "type": "object",
+                                            "properties": {
+                                                "Type": {},
+                                                "CardNumber": {}
+                                            }
+                                        }
+                                    }
+                                },
+                                "ThirdPartyID": {},
+                                "CustomerInfo": {
+                                    "type": "object",
+                                    "properties": {
+                                        "Email": {},
+                                        "EmailAddress": {}
+                                    }
                                 }
                             }
                         }
