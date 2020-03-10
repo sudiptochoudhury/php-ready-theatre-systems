@@ -1,5 +1,8 @@
 ### Changelog
 
+### 1.0.8 - 10 Mar 2020
+- Add additional purchase related properties in guzzle operation 
+
 ### 1.0.7 - 10 Mar 2020
 - Add purchase related properties in guzzle operation 
 

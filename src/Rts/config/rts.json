@@ -156,12 +156,16 @@
                         "Packet": {
                             "type": "object",
                             "properties": {
+                                "PurchaseItems": {
+                                    "$ref": "purchaseitems"
+                                },
                                 "PurchaseGifts": {
                                     "type": "array",
                                     "items": {
                                         "type": "object",
                                         "name": "PurchaseGift",
                                         "properties": {
+                                            "Price": {},
                                             "Amount": {}
                                         }
                                     }
@@ -252,23 +256,23 @@
                         "RegisterCards": {
                             "type": "array",
                             "items": {
-                                "type": "object",
-                                "name": "RegisterCard",
-                                "properties": {
-                                    "CardNumber": {},
-                                    "FirstName": {},
-                                    "LastName": {},
-                                    "Address1": {},
-                                    "Address2": {},
-                                    "City": {},
-                                    "State": {},
-                                    "Postal": {},
-                                    "RegisteredID": {},
-                                    "Email": {},
-                                    "DOB": {},
-                                    "DoNotEmail": {}
+                                    "type": "object",
+                                    "name": "RegisterCard",
+                                    "properties": {
+                                      "CardNumber": {},
+                                      "FirstName": {},
+                                      "LastName": {},
+                                      "Address1": {},
+                                      "Address2": {},
+                                      "City": {},
+                                      "State": {},
+                                      "Postal": {},
+                                      "RegisteredID": {},
+                                      "Email": {},
+                                      "DOB": {},
+                                      "DoNotEmail": {}
+                                    }
                                 }
-                            }
                         }
                     }
                 }
@@ -492,6 +496,9 @@
                         "Packet": {
                             "type": "object",
                             "properties": {
+                                "PurchaseItems": {
+                                    "$ref": "purchaseitems"
+                                },
                                 "PurchaseTitles": {
                                     "type": "array",
                                     "items": {
@@ -871,6 +878,7 @@
                 "name": "PurchaseItem",
                 "properties": {
                     "ItemName": {},
+                    "Price": {},
                     "Amount": {}
                 }
             }
