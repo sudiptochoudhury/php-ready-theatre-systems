@@ -1,8 +1,6 @@
 <?php
 
-
 namespace SudiptoChoudhury\Rts;
-
 
 class Constants
 {
@@ -38,8 +36,8 @@ class Constants
     ];
 
     public const FILM_INFO2 = [
-        '1' => 'Movietickets.com Display',
-        '2' => 'Movietickets.com Sell',
+        '1' => '3rd Party Display',
+        '2' => '3rd Party Sell',
         '4' => 'Rentrak Transfer',
         '8' => 'IMAX',
         '16' => 'Flat',
@@ -82,7 +80,11 @@ class Constants
         '4194304' => 'Captiview',
         '8388608' => 'Audio Description',
         '16777216' => 'Hearing Impaired Track',
-        '33554432' => 'Sensory Show',
+        '67108864' => 'Onyx',
+        '134217728' => 'Not ADA Accessible',
+        '268435456' => 'HFR',
+        '536870912' => 'Spanish Dubbed',
+        '1073741824' => 'Spanish Subtitled'
 
     ];
 
@@ -128,7 +130,6 @@ class Constants
         '137' => 'Performance is no longer scheduled',
         '138' => 'Non-secure payment on tokenized account',
         '139' => 'Ticket not available for performance',
-        '140' => 'Reserved ticket purchase error',
         '140' => 'Reserved ticket purchase error',
         '141' => 'Transaction does not balance error',
         '142' => 'Reserved ticket purchase error',
