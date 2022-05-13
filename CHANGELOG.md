@@ -1,5 +1,9 @@
 ### Changelog
 
+### 1.0.9 - 13 May 2022
+- Add new FILM_INFO3 constants 
+- Support PHP 8
+
 ### 1.0.8 - 10 Mar 2020
 - Add additional purchase related properties in guzzle operation 
 
