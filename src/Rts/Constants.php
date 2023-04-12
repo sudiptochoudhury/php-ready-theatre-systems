@@ -80,6 +80,7 @@ class Constants
         '4194304' => 'Captiview',
         '8388608' => 'Audio Description',
         '16777216' => 'Hearing Impaired Track',
+        '33554432' => 'Sensory Show',
         '67108864' => 'Onyx',
         '134217728' => 'Not ADA Accessible',
         '268435456' => 'HFR',

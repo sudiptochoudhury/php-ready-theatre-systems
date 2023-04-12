@@ -1,5 +1,8 @@
 ### Changelog
 
+### 1.0.10 - 12 April 2023
+- Revert back Sensory Show FILM_INFO3 constants (was removed by mistake) 
+ 
 ### 1.0.9 - 13 May 2022
 - Add new FILM_INFO3 constants 
 - Support PHP 8
